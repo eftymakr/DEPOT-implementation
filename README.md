@@ -78,7 +78,7 @@ kubectl create namespace oai-tutorial
 # Follow the complete guide in deployment/rfsim.md
 ```
 
-##  Current Status (95% Complete)
+##  Current Status
 
 ### Achievements
 - **5G Core Functions**: All NFs (AMF, SMF, UPF, NRF, etc.) operational
