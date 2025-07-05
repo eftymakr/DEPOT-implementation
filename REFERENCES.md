@@ -47,14 +47,13 @@
 
 ### xApp Development
 - **xApp Development Guide**: https://docs.o-ran-sc.org/projects/o-ran-sc-it-dev/en/latest/
-- **E2 Service Model**: https://docs.o-ran-sc.org/en/latest/submodules/ric-plt-e2/docs/
 - **RIC Platform**: https://wiki.o-ran-sc.org/display/RICP
 
 
 ## Tools and Utilities
 
 ### Monitoring and Debugging
-- **Wireshark 5G Dissectors**: https://wiki.wireshark.org/5G
+- **Wireshark 5G Dissectors**: https://wiki.wireshark.org/
 - **kubectl Cheat Sheet**: https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 - **Docker Logging**: https://docs.docker.com/config/containers/logging/
 
