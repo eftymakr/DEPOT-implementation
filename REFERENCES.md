@@ -65,7 +65,7 @@
 ## Community Resources
 
 ### Forums and Support
-- **OAI Discourse Forum**: https://openairinterface.discourse.group/
+- **OAI Discourse Forum**: https://discourse.myriadrf.org/t/openairinterface-configuration/
 - **Stack Overflow - 5G Tags**: https://stackoverflow.com/questions/tagged/5g
 - **Kubernetes Community**: https://kubernetes.io/community/
 
