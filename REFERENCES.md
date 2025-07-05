@@ -31,12 +31,11 @@
 
 ### 5G Architecture
 - **5G Architecture Overview**: https://www.3gpp.org/technologies/5g-system-overview
-- **Service Based Architecture**: https://www.3gpp.org/news-events/2178-sa_5g
-- **Network Slicing**: https://www.3gpp.org/news-events/2073-nsa
+- **Service Based Architecture**: 
+- **Network Slicing**:
 
 ### RAN Technologies
-- **RF Simulator**: https://gitlab.eurecom.fr/oai/openairinterface5g/-/wikis/how-to-build#rf-simulator
-- **E2 Interface Specification**: https://www.o-ran.org/specifications
+- **RF Simulator**: https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-fed/-/blob/master/docs/DEPLOY_SA5G_HC.md
 - **O-RAN Alliance**: https://www.o-ran.org/
 
 ## FlexRIC and xApps
