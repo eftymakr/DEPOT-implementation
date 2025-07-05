@@ -4,15 +4,11 @@
 
 ### Core Resources
 - **OAI GitLab Repository**: https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-fed
+- **OAI GNBSIM Documentation**: https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-fed/-/blob/master/docs/DEPLOY_SA5G_HC.md
 - **OAI 5G Core Documentation**: https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-fed/-/blob/master/docs/DEPLOY_SA5G_HC.md
-- **OAI Tutorials**: https://gitlab.eurecom.fr/oai/openairinterface5g/-/wikis/tutorials
+- **FLexRIC Documentation**: https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/openair2/E2AP/README.md
 - **OAI Docker Hub**: https://hub.docker.com/u/oaisoftwarealliance
 
-### Technical Specifications
-- **3GPP TS 38.300**: NR and NG-RAN Overall Description
-- **3GPP TS 23.501**: 5G System Architecture and Procedures  
-- **3GPP TS 38.331**: Radio Resource Control (RRC) Protocol
-- **3GPP TS 38.211**: Physical Channels and Modulation
 
 ## Kubernetes and Container Orchestration
 
@@ -48,6 +44,7 @@
 ### FlexRIC Framework
 - **FlexRIC Repository**: https://gitlab.eurecom.fr/mosaic5g/flexric
 - **FlexRIC Documentation**: https://gitlab.eurecom.fr/mosaic5g/flexric/-/blob/main/README.md
+- **FLexRIC E2AP Documentation**: https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/openair2/E2AP/README.md
 - **Near-RT RIC**: https://docs.o-ran-sc.org/en/latest/
 
 ### xApp Development
@@ -55,21 +52,6 @@
 - **E2 Service Model**: https://docs.o-ran-sc.org/en/latest/submodules/ric-plt-e2/docs/
 - **RIC Platform**: https://wiki.o-ran-sc.org/display/RICP
 
-## Research Papers and Academic References
-
-### 5G Core Network Studies
-- *"Performance Analysis of 5G Core Network"* - IEEE Communications Magazine
-- *"Containerized 5G Core Network Deployment"* - IEEE Network
-- *"Cloud-Native 5G Networks"* - Computer Networks Journal
-
-### RF Simulation and Testing
-- *"RF Channel Modeling for 5G Networks"* - IEEE Transactions on Wireless Communications
-- *"Software-Defined Radio for 5G Research"* - IEEE Communications Surveys & Tutorials
-
-### RAN Intelligence and AI/ML
-- *"Artificial Intelligence for Radio Access Networks"* - IEEE Communications Magazine
-- *"Machine Learning in 5G RAN Optimization"* - IEEE Network
-- *"E2E Network Slicing with AI/ML"* - Computer Communications
 
 ## Tools and Utilities
 
@@ -90,19 +72,6 @@
 - **Stack Overflow - 5G Tags**: https://stackoverflow.com/questions/tagged/5g
 - **Kubernetes Community**: https://kubernetes.io/community/
 
-### Conferences and Events
-- **Mobile World Congress (MWC)**: https://www.mwcbarcelona.com/
-- **IEEE Globecom**: https://globecom2024.ieee-globecom.org/
-- **O-RAN Alliance Events**: https://www.o-ran.org/events
-
-## Version Information
-
-### Software Versions Used
-- **Kubernetes**: v1.27.4+
-- **Helm**: v3.11.2+
-- **OAI 5G Core**: v2.0.1
-- **Docker**: 20.10+
-- **Calico CNI**: v3.26+
 
 ### Image Tags
 ```yaml
