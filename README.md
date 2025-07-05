@@ -27,8 +27,8 @@ This tutorial demonstrates the complete deployment of a 5G SA network using:
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   5G Core NFs   │    │    RAN Stack    │    │   FlexRIC RIC   │
-│                 │    │                  │    │   (Future)      │
+│   5G Core NFs   │    │    RAN Stack     │    │   FlexRIC RIC   │
+│                 │    │                  │    │                 │
 │ ┌─────┐ ┌─────┐ │    │ ┌──────────────┐ │    │ ┌─────────────┐ │
 │ │ AMF │ │ SMF │ │◄──►│ │ gNB (RFSim)  │ │◄──►│ │  xApps      │ │
 │ └─────┘ └─────┘ │    │ └──────────────┘ │    │ │ AI/ML Opt   │ │
@@ -41,7 +41,7 @@ This tutorial demonstrates the complete deployment of a 5G SA network using:
                                  │
                     ┌────────────▼───────────┐
                     │    E2AP Interface      │
-                    │  (Currently Disabled)  │
+                    │                        │
                     └────────────────────────┘
 ```
 
@@ -87,7 +87,7 @@ kubectl create namespace oai-tutorial
 - **GTP-U Tunneling**: Established tunnel with IP 12.1.1.100/24
 - **Internet Access**: Validated end-to-end connectivity
 
-### Current Challenge (5% Remaining)
+### Current Challenge
 **Issue**: `oaitun_ue1` interface intermittent IPv4 assignment
 - Interface creates successfully with proper tunnel setup
 - Occasional timing issues with IP configuration
@@ -148,11 +148,9 @@ kubectl get pods -n kube-system | grep calico
 - E2AP interface implemented 
 - RFSim provides E2AP capability (unlike gNBsim)
 - Network fully functional for FlexRIC integration
-
-### Next Steps for FlexRIC
-1. **Enable E2AP Interface**: Modify gNB configuration
-2. **Deploy FlexRIC Components**: Near-RT RIC and xApps
-3. **xApp Development**: AI/ML network optimization applications
+- **Enable E2AP Interface**
+- **Deploy FlexRIC Components**: Near-RT RIC and xApps
+- **xApp Development**: AI/ML network optimization applications
 
 See [deployment/flexric.md](deployment/flexric.md) for detailed integration guide.
 
