@@ -217,7 +217,6 @@ kubectl delete namespace oai-gnbsim
 kubectl get namespaces | grep gnbsim
 ```
 
-## Lessons Learned
 
 ### Technical Insights
 1. **Interface requirements matter**: E2AP is essential for FlexRIC
