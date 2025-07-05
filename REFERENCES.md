@@ -42,7 +42,6 @@
 
 ### FlexRIC Framework
 - **FlexRIC Repository**: https://gitlab.eurecom.fr/mosaic5g/flexric
-- **FlexRIC Documentation**: https://gitlab.eurecom.fr/mosaic5g/flexric/-/blob/main/README.md
 - **FLexRIC E2AP Documentation**: https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/openair2/E2AP/README.md
 - **Near-RT RIC**: https://docs.o-ran-sc.org/en/latest/
 
