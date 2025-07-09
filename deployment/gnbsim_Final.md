@@ -3,8 +3,8 @@
 ## Deployment Options
 
 This guide covers **two deployment methods**:
-- **Option A: Docker Compose** (Official OAI tutorial approach)
-- **Option B: Kubernetes/Helm** (Your preferred approach)
+- **Option A: Docker Compose** 
+- **Option B: Kubernetes/Helm** 
 
 ---
 
