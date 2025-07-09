@@ -8,7 +8,7 @@ This guide covers **two deployment methods**:
 
 ---
 
-## Docker Compose Deployment (Your Alternative Method)
+## Docker Compose Deployment
 
 ### Prerequisites Setup
 
