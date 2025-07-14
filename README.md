@@ -79,7 +79,7 @@ E2AP operates on **near real-time** timescales (10ms to 1s), enabling:
 # Limited to basic tests
 UE Registration: ✅ Works
 Data Transfer: ✅ Works  
-AI/ML Optimization: ❌ Impossible
+FlexRIC integration: ❌ Impossible
 Network Intelligence: ❌ Not available
 Research Value: ❌ Limited
 ```
@@ -89,7 +89,7 @@ Research Value: ❌ Limited
 # Full research capabilities
 UE Registration: ✅ Works
 Data Transfer: ✅ Works
-AI/ML Optimization: ✅ Possible via xApps
+FlexRIC integration: ✅ Possible via xApps
 Network Intelligence: ✅ Real-time metrics
 Research Value: ✅ Complete platform
 ```
