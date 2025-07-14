@@ -72,7 +72,7 @@ E2AP operates on **near real-time** timescales (10ms to 1s), enabling:
 4. **AR/VR Applications**: Predictive bandwidth allocation
 5. **Network Slicing**: Intelligent resource partitioning per service type
 
-### E2AP in Your Research Context
+### E2AP in a Research Context
 
 #### Without E2AP (gNBsim):
 ```bash
