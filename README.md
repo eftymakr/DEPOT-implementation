@@ -23,22 +23,22 @@ This tutorial demonstrates the complete deployment of a 5G SA network using:
 - **RFSim**: Enables full E2AP interface required for FlexRIC integration
 - **FlexRIC**: Provides AI/ML-driven network optimization capabilities
 
-# Why E2AP Interface is Critical for 5G Networks
+## Why E2AP Interface is Critical for 5G Networks
 
-## What is E2AP?
+### What is E2AP?
 
 **E2 Application Protocol (E2AP)** is a standardized interface defined by the O-RAN Alliance that enables communication between the Radio Access Network (RAN) and the RAN Intelligence Controller (RIC). It serves as the **bridge between traditional 5G infrastructure and AI/ML-driven network optimization**.
 
-## Why E2AP is Essential
+### Why E2AP is Essential
 
-### 1. **Real-Time RAN Intelligence**
+#### 1. **Real-Time RAN Intelligence**
 E2AP enables the RIC to collect **real-time performance metrics** from gNBs, including:
 - **Radio conditions**: RSRP, RSRQ, SINR measurements
 - **Traffic patterns**: Throughput, latency, packet loss
 - **Resource utilization**: PRB usage, CPU/memory consumption
 - **UE behavior**: Mobility patterns, QoS requirements
 
-### 2. **AI/ML-Driven Network Optimization**
+#### 2. **AI/ML-Driven Network Optimization**
 Without E2AP, networks operate with **static configurations**. With E2AP, networks become **intelligent and adaptive**:
 
 ```
@@ -49,7 +49,7 @@ Intelligent 5G (with E2AP):
 gNB ↔ E2AP ↔ RIC ↔ xApps → Dynamic AI/ML Optimization → Adaptive Performance
 ```
 
-### 3. **Near Real-Time Control**
+#### 3. **Near Real-Time Control**
 E2AP operates on **near real-time** timescales (10ms to 1s), enabling:
 - **Dynamic spectrum allocation**
 - **Intelligent handover decisions**
@@ -57,24 +57,24 @@ E2AP operates on **near real-time** timescales (10ms to 1s), enabling:
 - **Traffic load balancing**
 - **Energy efficiency optimization**
 
-## Real-World Impact of E2AP
+### Real-World Impact of E2AP
 
-### Network Performance Improvements:
+#### Network Performance Improvements:
 - **30-50% capacity increase** through intelligent resource allocation
 - **20-40% energy savings** via AI-driven power optimization
 - **50-70% reduction in handover failures** using predictive analytics
 - **Sub-millisecond latency** for critical applications
 
-### Use Cases Enabled by E2AP:
+#### Use Cases Enabled by E2AP:
 1. **Autonomous Driving**: Real-time network slicing for V2X communication
 2. **Industry 4.0**: Dynamic QoS for mission-critical manufacturing
 3. **Smart Cities**: Adaptive network resources for IoT devices
 4. **AR/VR Applications**: Predictive bandwidth allocation
 5. **Network Slicing**: Intelligent resource partitioning per service type
 
-## E2AP in Your Research Context
+### E2AP in Your Research Context
 
-### Without E2AP (gNBsim):
+#### Without E2AP (gNBsim):
 ```bash
 # Limited to basic tests
 UE Registration: ✅ Works
@@ -84,7 +84,7 @@ Network Intelligence: ❌ Not available
 Research Value: ❌ Limited
 ```
 
-### With E2AP (RFSim + FlexRIC):
+#### With E2AP (RFSim + FlexRIC):
 ```bash
 # Full research capabilities
 UE Registration: ✅ Works
